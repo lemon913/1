@@ -28,7 +28,7 @@ class dev(commands.Cog, name="develop"):
     @commands.is_owner()
     async def evaluate(self, ctx, *, cmd):
         """
-        미야야 실행 < 코드 >
+        캐시야 실행 < 코드 >
 
 
         작성한 코드를 EVAL로 실행합니다.
@@ -68,7 +68,7 @@ class dev(commands.Cog, name="develop"):
     @commands.is_owner()
     async def add_all_guilds(self, ctx):
         """
-        미야야 전체
+        캐시야 전체
 
 
         이미 등록된 길드를 제외하고 모든 길드를 DB에 등록합니다.
@@ -105,7 +105,7 @@ class dev(commands.Cog, name="develop"):
     @commands.is_owner()
     async def add_blacklist(self, ctx, user: discord.User):
         """
-        미야야 블랙 < 유저 >
+        캐시야 블랙 < 유저 >
 
 
         지목한 유저를 블랙리스트에 추가합니다.
@@ -125,7 +125,7 @@ class dev(commands.Cog, name="develop"):
     @commands.is_owner()
     async def remove_blacklist(self, ctx, user: discord.User):
         """
-        미야야 언블랙 < 유저 >
+        캐시야 언블랙 < 유저 >
 
 
         지목한 유저를 블랙리스트에서 제거합니다.
